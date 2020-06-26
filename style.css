@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#nav-bar{
+  position: sticky;
+  top : 0;
+  z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+  padding: 0 10px;
+  float: right;
+}
+
+.navbar-nav li a{
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover{
+  color: #007bff !important;
+}
+
+.navbar{
+  background: #fff;
+}
+
+.navbar-toggler{
+  border: none !important;
+}
+.nav-link{
+  color: #555 !important;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#first-page img{
+  height:800px;
+  width:100%;
+  position: relative;
+  display: flex;
+}
+/*#first-page{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("finalcover.jgp");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}*/
+.text-block {
+  position: absolute;
+  top:65px;
+  z-index: auto;
+  background-color: rgb(0, 45, 128,0.6);
+  height:800px;
+  width: 40%;
+  color: white;
+  padding-left: 50px;
+  padding-right: 25px;
+  padding-top: 20%;
+  text-align:center;
+}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.text-block2 {
+  position: absolute;
+  z-index: 0;
+  background-color: #e6f2ff;
+  height:600px;
+  width: 40%;
+  color: #003366;
+  padding-left: 120px;
+  padding-right: 25px;
+  padding-top: 10%;
+  text-align:left;
+}
+#practicearea .list1{
+  position:relative;
+  left : 45%;
+  padding-top: 7%;
+}
+
+#practicearea .list1 ul li{
+  font-size: 4vh;
+  line-height: 500%;
+  color:#004d99;
+}
+#practicearea .list2{
+  position:absolute;
+  top:146.4%;
+  left : 75%;
+  padding-top: 7%;
+}
+
+#practicearea .list2 ul li{
+  font-size: 4vh;
+  line-height: 500%;
+  color:#004d99;
+}
+
+ul.a{
+  list-style-type: square;
+}
+
+ul.b{
+  list-style-type: square;
+}
